@@ -1,0 +1,43 @@
+#img-div {
+  text-align: center; 
+  background: white;
+  font: black;
+  padding: 6px;
+  
+}
+#image {
+  max-width: 100%;
+  max-height: 350px;
+  margin: center;
+  display: block;
+
+}
+h2 {
+  font-size: 25px;
+  font-family: Tahoma;
+  text-align: block;
+  display: inline;
+}
+body {
+  background-color: white;
+  font-family: Tahoma;
+  color: black;
+}
+.footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-left: -0px;
+  position: absolute;
+  left: 0%;
+  width: 100%;
+ }
+.pp {
+  padding-bottom
+  margin: ;
+}
+h1 {
+  text-align: center;
+  font-size: 25px;
+  font-family: Tahoma;
+}

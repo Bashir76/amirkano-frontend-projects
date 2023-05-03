@@ -1,0 +1,27 @@
+ h1 {
+   font-family: Georgia;
+   color: red;
+   text-align: center;
+ }
+ 
+ li {
+  list-style-type: none;
+  font-size: 16p;
+}
+.container {
+  margin: auto;
+  padding-top: 5px;
+  width: 350px;
+  background : #D8F1F8;
+  border: 2px soild silver;
+  font-family: Arial;
+}
+input {
+  font-size: 20px;
+}
+input:focus, textarea:focus {
+  background-color: lightyellow;
+}
+input submit {
+  font-size: 12pt;
+}

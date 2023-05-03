@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Phone Number validator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="Telephone Number Validator, Number Validator, javascript, html"/>
+  <meta name="description" content="Telephone Number Validator in javaScript,css,and html"/>
+  <meta name="author" content="Bashir76, Amirkano"/>
+  <link rel='stylesheet' href='./styles/telephone-number-validator.css' type='text/css' />      
+</head>
+<body onload='document.PhoneNumber.numberInput.focus()'>
+  <h1> Telephone Number Validator</h1>
+ <div class="container">
+  <h4>Input an Phone No.[555-555-5555] and Submit</h4>
+  <!-- html form element of number input. -->
+   <form name="PhoneNumber" action="#">
+     <ul>
+       <li><input type='number' name='numberInput'/>
+       </li>
+      <li>&nbsp;</li>
+      <li class="submit"><input type="submit" name="submit" value="Submit" onclick="telephoneCheck(document.PhoneNumber.numberInput)"/>
+      </li>
+      <li>&nbsp;</li>
+    </ul>
+  </form>
+</div>
+<script src="./scripts/telephone-number-validator.js"></script>
+</body>
+</html>

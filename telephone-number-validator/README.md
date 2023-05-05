@@ -4,7 +4,7 @@ The Telephone Number Validator Return true if the passed string looks like a val
 
 The user may fill out the form field any way they choose as long as it has the format of a valid US number. 
 
-<img src="telephone-number-validator.jpg" alt="telephone number validator photo" />
+<img src="validator-successful.jpg" alt="telephone number validator photo" />
 
 # Tests
 - telephoneCheck `("555-555-5555")` should return a boolean.

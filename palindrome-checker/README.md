@@ -10,9 +10,9 @@ We'll pass strings with varying formats, such as racecar, RaceCar, and race CAR 
 
 We'll also pass strings with special symbols, such as `2A3*3a2, 2A3 3a2, and 2_A3*3#A2.`
 
-<img src="palindrome-checker-alp.jpg">
-<img src="palindrome-checker-num.jpg">
-<img src="palindrome-checker-no.jpg">
+<img src="palindrome-checker-alp.png" alt="palindrome checker screnshort">
+<img src="palindrome-checker-num.png" alt="palindrome checker screnshort">
+<img src="palindrome-checker-no.png" alt="palindrome checker screnshort">
 
 ###  Tests
 - palindrome `("eye")` should return a boolean.

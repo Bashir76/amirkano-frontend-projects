@@ -14,6 +14,6 @@ One of the simplest and most widely known ciphers is a Caesar cipher, also known
 
 - The Cipher most moved the shift declaration into the startEncryption function
 
-- The Cipher should incrementing the encryptedMessage string inside our loop by the value returned by the shiftLetter function
+- The Cipher should incrementing the encryptedMessage string insidr loop by the value returned by the shiftLetter function.
 
 - The Cipher should defined shiftLetter function.

@@ -1,0 +1,98 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #AA57CC;
+}
+::selection{
+  color: #fff;
+  background: rgb(170,87,204,0.8);
+}
+.wrapper{
+  max-width: 500px;
+  background: #fff;
+  border-radius: 7px;
+  padding: 20px 25px 15px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+h1 {
+  text-align: center;
+  padding: 5px;
+  font-family: Georgia;
+}
+
+img {
+  max-width: 50px;
+  left: 45%;
+  position: absolute;
+}
+
+#encrypted {
+ outline: none;
+ border-color: red;
+ background-color: black;
+ color: white;
+}
+
+input {
+  width: 100%;
+  height: 60px;
+  outline: none;
+  padding: 0 17px;
+  font-size: 19px;
+  border-radius: 5px;
+  margin: 5px 0 20px;
+  border: 1px solid #999;
+  transition: 0.1s ease;
+}
+
+input::placeholder{
+  color: #999999;
+}
+input:focus{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+
+input:focus::placeholder{
+  color: #bebebe;
+}
+
+input.active{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+@media (max-width: 520px) {
+  .wrapper{
+    padding: 17px 20px 10px;
+  }
+  header h1{
+    font-size: 25px;
+  }
+  header p{
+    font-size: 16px;
+  }
+  .inputs input{
+    height: 54px;
+    font-size: 17px;
+  }
+  .inputs button{
+    height: 50px;
+    font-size: 16px;
+    margin-top: 17px;
+  }
+  .info-txt{
+    font-size: 18px;
+  }
+}

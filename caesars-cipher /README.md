@@ -2,6 +2,7 @@
 
 One of the simplest and most widely known ciphers is a Caesar cipher, also known as a shift cipher. In a shift cipher the meanings of the letters are shifted by some set amount.
 
+<img src="caesars-ciphe.jpg" alt="caesars-cipher screanshort" >
 
 ### Test
 - The Cipher should Read the values from our input
